@@ -1,8 +1,7 @@
 class Telefono:
     def __init__(self, marca, modelo, almacenamiento, ram, sistema_operativo, 
                  bateria, pantalla, camara_principal, color, precio):
-        
-        # Asignación de los 10 atributos
+     
         self.marca = marca
         self.modelo = modelo
         self.almacenamiento = almacenamiento
@@ -14,7 +13,6 @@ class Telefono:
         self.color = color
         self.precio = precio
         
-        # Estas líneas imprimen los datos al momento de crear el objeto
         print(f"Marca del Teléfono: {self.marca}")
         print(f"Modelo: {self.modelo}")
         print(f"Almacenamiento: {self.almacenamiento}")
