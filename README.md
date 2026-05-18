@@ -1,6 +1,6 @@
 # repositorio de programacion orientada a objetos
 Repositorio con ejercicios de programación orientada a objetos
-##1. Crear . gitignore 
+## 1. Crear . gitignore 
 crear el archivo .gitignore para configurar los archivos y carpetas que no deseamos que se guarden en el repositorio. 
 ````shell
 *.pyc
