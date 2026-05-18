@@ -6,7 +6,7 @@ crear el archivo .gitignore para configurar los archivos y carpetas que no desea
 *.pyc
 __pycache__/
 ````
-##2. Indexar archivos y carpetas 
+## 2. Indexar archivos y carpetas 
 Indexa todos los directorios y carpetassca de documentos nuevos
 
 ````shell
@@ -23,7 +23,7 @@ git add .
  *UPDATED-seactualizaron o agregaron nuevas funciones
  *FIXED - se corrigieron errores 
 
- ##4. Realizar el COMMIT 
+ ## 4. Realizar el COMMIT 
  Sincroniza los cambios realizados en el repositorio 
 
  ````shell
