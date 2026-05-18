@@ -13,7 +13,7 @@ Indexa todos los directorios y carpetas de documentos nuevos
 git add .
 ````
 
-## crea un COMMIT 
+## 3. crea un COMMIT 
  
  crea un commit o punto de control de los cambios realizados en el proyecto.
  ````shell
