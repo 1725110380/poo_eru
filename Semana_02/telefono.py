@@ -2,7 +2,7 @@ class Telefono:
     def __init__(self, marca, modelo, almacenamiento, ram, sistema_operativo, 
                  bateria, pantalla, camara_principal, color, precio):
         
-        # Asignación de los 10 atributos
+
         self.marca = marca
         self.modelo = modelo
         self.almacenamiento = almacenamiento
@@ -13,8 +13,8 @@ class Telefono:
         self.camara_principal = camara_principal
         self.color = color
         self.precio = precio
+         
         
-        # Estas líneas imprimen los datos al momento de crear el objeto
         print(f"Marca del Teléfono: {self.marca}")
         print(f"Modelo: {self.modelo}")
         print(f"Almacenamiento: {self.almacenamiento}")
@@ -25,6 +25,18 @@ class Telefono:
         print(f"Cámara Principal: {self.camara_principal}")
         print(f"Color del equipo: {self.color}")
         print(f"Precio aproximado: {self.precio}")
+
+    def llamar ():
+        print(f"el telefono hace una llamda")
+    def encender():
+        print(f"El telefono enciende")
+    def jugar ():
+        print(f"El telefono abre un juego")
+    def apagar ():
+        print(f"El telefono se apaga")
+    def videollamar ():
+        print(f"El telefono hace una videollamada")
+
 
 mi_telefono = Telefono(
     "Apple",
@@ -38,3 +50,9 @@ mi_telefono = Telefono(
     "Negro",
     "$19,499 MXN"
 )
+
+mi_telefono.llamar()
+mi_telefono.encender()
+mi_telefono.jugar()
+mi_telefono.apagar()
+mi_telefono.videollamar()

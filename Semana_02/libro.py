@@ -52,4 +52,8 @@ noches_blancas = LibroBiblioteca(
     idioma="Español"
 )
 
+noches_blancas.clasificacion()
+noches_blancas.catalogarlo()
+noches_blancas.prestar()
 noches_blancas.leer()
+noches_blancas.comprar()
